@@ -23,6 +23,6 @@ func main() {
 
 	pg := generate.NewPasswordGenerator()
 
-	pwd := pg.GeneratePassword(16, *lcase, *ucase, *numbers, *symbols)
+	pwd := pg.GeneratePassword(*length, *lcase, *ucase, *numbers, *symbols)
 	fmt.Println(pwd)
 }
