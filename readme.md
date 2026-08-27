@@ -9,7 +9,7 @@ A small and simple tool to generate a password instead of googling "password gen
 With Go [installed](https://go.dev), run 
 
 ```
-go install github.com/jasontconnell/jpwd/cmd/jpwd
+go install github.com/jasontconnell/jpwd/cmd/jpwd@latest
 ```
 
 ## Run
