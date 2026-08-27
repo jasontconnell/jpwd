@@ -15,7 +15,8 @@ go install github.com/jasontconnell/jpwd/cmd/jpwd
 ## Run
 
 ```
-jpwd -length 20 -uppercase -lowercase -symbols="!@#$%^&*()_+-=;:,./<>?"
+$ jpwd -length 20 -uppercase -lowercase -symbols="!@#$%^&*()_+-=;:,./<>?"
+> GulCyk;fn,*uBOTYX$.d
 ```
 
 ## Options
@@ -31,8 +32,8 @@ jpwd -length 20 -uppercase -lowercase -symbols="!@#$%^&*()_+-=;:,./<>?"
 Instead of using all of the sets of uppercase, lowercase, numbers, symbols etc, you can provide `false` values for each of the boolean flags and provide your own set of symbols (false is default for boolean flags)
 
 ```
->>> jpwd -length 20 -symbols="abcABC1234!@#$"
->>> $A#aa#4!B#a@#$@c
+$ jpwd -length 20 -symbols="abcABC1234!@#$"
+> a4c1Bc4BC$aBba1#b334
 ```
 
 I will let you determine the usefulness of that.
